@@ -5,99 +5,17 @@ document.getElementById("timer").classList.add('hidden');
 
 let currentQuestion = 0;
 let currentScore = 0;
-let initialTime = 10;
+let initialTime = 5;
 let totalTime = initialTime * 60;
 
-const data = [
-    {
-        question: "What is the capital of India?",
-        options: [
-            {
-                id: "1",
-                option: "New Delhi",
-            },
-            {
-                id: "2",
-                option: "Kolkata",
-            },
-            {
-                id: "3",
-                option: "Paris",
-            },
-            {
-                id: "4",
-                option: "Colombo",
-            },
-        ],
-        correctAnswer: "1",
-    },
-    {
-        question: "What is the capital of Andhra?",
-        options: [
-            {
-                id: "1",
-                option: "New Delhi",
-            },
-            {
-                id: "2",
-                option: "Kolkata",
-            },
-            {
-                id: "3",
-                option: "Paris",
-            },
-            {
-                id: "4",
-                option: "Colombo",
-            },
-        ],
-        correctAnswer: "1",
-    },
-    {
-        question: "What is the capital of Pune?",
-        options: [
-            {
-                id: "1",
-                option: "New Delhi",
-            },
-            {
-                id: "2",
-                option: "Kolkata",
-            },
-            {
-                id: "3",
-                option: "Paris",
-            },
-            {
-                id: "4",
-                option: "Colombo",
-            },
-        ],
-        correctAnswer: "1",
-    },
-    {
-        question: "What is the capital of Goa?",
-        options: [
-            {
-                id: "1",
-                option: "New Delhi",
-            },
-            {
-                id: "2",
-                option: "Kolkata",
-            },
-            {
-                id: "3",
-                option: "Paris",
-            },
-            {
-                id: "4",
-                option: "Colombo",
-            },
-        ],
-        correctAnswer: "1",
-    },
-];
+let data;
+
+fetch('data.json')
+  .then(response => response.json())
+  .then(json => {
+    data = json;
+  })
+  .catch(error => console.error('Error fetching JSON:', error));
 
 let timerInterval;
 

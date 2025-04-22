@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the capital of India?",
+        "options": [
+            {
+                "id": "1",
+                "option": "New Delhi"
+            },
+            {
+                "id": "2",
+                "option": "Mumbai"
+            },
+            {
+                "id": "3",
+                "option": "Chennai"
+            },
+            {
+                "id": "4",
+                "option": "Bangalore"
+            }
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": [
+            {
+                "id": "1",
+                "option": "William Wordsworth"
+            },
+            {
+                "id": "2",
+                "option": "William Shakespeare"
+            },
+            {
+                "id": "3",
+                "option": "Jane Austen"
+            },
+            {
+                "id": "4",
+                "option": "Mark Twain"
+            }
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Earth"
+            },
+            {
+                "id": "2",
+                "option": "Saturn"
+            },
+            {
+                "id": "3",
+                "option": "Jupiter"
+            },
+            {
+                "id": "4",
+                "option": "Mars"
+            }
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Oxygen"
+            },
+            {
+                "id": "2",
+                "option": "Gold"
+            },
+            {
+                "id": "3",
+                "option": "Osmium"
+            },
+            {
+                "id": "4",
+                "option": "Zinc"
+            }
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "Who was the first person to walk on the Moon?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Yuri Gagarin"
+            },
+            {
+                "id": "2",
+                "option": "Buzz Aldrin"
+            },
+            {
+                "id": "3",
+                "option": "Neil Armstrong"
+            },
+            {
+                "id": "4",
+                "option": "Michael Collins"
+            }
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Berlin"
+            },
+            {
+                "id": "2",
+                "option": "Madrid"
+            },
+            {
+                "id": "3",
+                "option": "Paris"
+            },
+            {
+                "id": "4",
+                "option": "Rome"
+            }
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "Which organ is responsible for pumping blood through the body?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Brain"
+            },
+            {
+                "id": "2",
+                "option": "Lungs"
+            },
+            {
+                "id": "3",
+                "option": "Heart"
+            },
+            {
+                "id": "4",
+                "option": "Liver"
+            }
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "What is the boiling point of water at sea level?",
+        "options": [
+            {
+                "id": "1",
+                "option": "90°C"
+            },
+            {
+                "id": "2",
+                "option": "100°C"
+            },
+            {
+                "id": "3",
+                "option": "110°C"
+            },
+            {
+                "id": "4",
+                "option": "120°C"
+            }
+        ],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "Which country is famous for the Great Wall?",
+        "options": [
+            {
+                "id": "1",
+                "option": "Japan"
+            },
+            {
+                "id": "2",
+                "option": "India"
+            },
+            {
+                "id": "3",
+                "option": "China"
+            },
+            {
+                "id": "4",
+                "option": "Thailand"
+            }
+        ],
+        "correctAnswer": "3"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": [
+            {
+                "id": "1",
+                "option": "0"
+            },
+            {
+                "id": "2",
+                "option": "1"
+            },
+            {
+                "id": "3",
+                "option": "2"
+            },
+            {
+                "id": "4",
+                "option": "3"
+            }
+        ],
+        "correctAnswer": "3"
+    }
+]
